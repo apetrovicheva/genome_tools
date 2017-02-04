@@ -1,3 +1,3 @@
 #!/bin/bash
-# USAGE: bash countseq.sh
-grep -c ">" ~/Desktop/data-shell/Desktop/data/genome.fa
+# USAGE: bash countseq.sh FASTA
+grep -c ">" $1
